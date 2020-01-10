@@ -7,5 +7,5 @@ function onLoginClick() {
 }
 
 function onRegisterClick() {
-  window.location.replace("registerPage.html");
+  window.location.replace("mainPage.html");
 }
