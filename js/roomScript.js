@@ -1,17 +1,13 @@
-document.getElementById("cancelButton").addEventListener("click", onCancelClick);
-document.getElementById("deleteButton").addEventListener("click", onDeleteClick);
-document.getElementById("addDeviceButton").addEventListener("click", onAddDeviceClick);
 
+document.getElementById("deleteButton").addEventListener("click", onDeleteClick);
 
 var modal1 = document.getElementById("modal1");
 var modal2 = document.getElementById("modal2");
 var modal3 = document.getElementById("modal3");
 
-
 var btn1 = document.getElementById("ustawienia1Button");
 var btn2 = document.getElementById("ustawienia2Button");
 var btn3 = document.getElementById("ustawienia3Button");
-
 
 var span1 = document.getElementById("close1");
 var span2 = document.getElementById("close2");
@@ -26,10 +22,6 @@ var cancel2 = document.getElementById("cancelButton2");
 var cancel3 = document.getElementById("cancelButton3");
 
 
-function onCancelClick() {
-  window.location.replace("mainPage.html");
-}
-
 
 function onDeleteClick() {
   var x = document.getElementById("urzadzenie1");
@@ -40,10 +32,6 @@ function onDeleteClick() {
   }
 } 
 
-
-function onAddDeviceClick() {
-  window.location.replace("addDevice.html");
-}
 
 apply1.onclick = function() {
    modal1.style.display = "none";	
