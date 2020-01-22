@@ -2,6 +2,12 @@ html, body {
   background-color: rgb(1, 1, 101);
 }
 
+html *
+{
+
+   font-family: Calibri !important;
+}
+
 .slidecontainer {
   width: 100%;
 }
@@ -21,6 +27,7 @@ html, body {
 
 .smallPanel {
 	background-color: rgb(1,1,155);
+	  border-radius: 25px;
 	width: 90%;
 	height: 300px;
 	display: flex;
@@ -73,6 +80,7 @@ line-height: 90px;
 
 .deleteButton {
 	background-color: #ef5433;
+  border-radius: 10px;
 	border-style: bold;
 	border-width: 2px;
 	border-color: #ffffff;
@@ -85,6 +93,7 @@ line-height: 90px;
 
 .longButton {
 	background-color: #ffffff;
+	  border-radius: 10px;
 	border-style: bold;
 	border-width: 2px;
 	border-color: #ffffff;
@@ -141,10 +150,11 @@ line-height: 90px;
   left: 0;
   top: 0;
   width: 100%; 
-  height: 100%; 
+  height: 110%; 
   overflow: auto; 
   background-color: rgb(0,0,0); 
-  background-color: rgba(0,0,0,0.4); 
+  background-color: rgba(0,0,0,0.4);
+
 }
 
 .modalContent {
@@ -153,6 +163,7 @@ line-height: 90px;
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
+   border-radius: 20px;  
 }
 
 .close {
@@ -222,6 +233,12 @@ line-height: 90px;
 	margin: 0 auto;
 }
 
+.input2 {
+	width: 40%;
+	height: 60%;
+	margin-top: 1%;
+}
+
 .firstButton {
 	background-color: #ffffff;
 	border-style: bold;
@@ -231,8 +248,22 @@ line-height: 90px;
 	height: 140px;
 	margin-right: 20%;
 	font-size: 30px;
+	  border-radius: 10px;
 }
 
+.linkButton1 {
+  font: bold 30px Arial;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #333333;
+  padding: 52px 76px 52px 76px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+	margin-right: 20%;
+	border-radius: 10px;
+}
 
 .addDevButton {
 	background-color: #ffffff;
@@ -246,6 +277,7 @@ line-height: 90px;
 	margin-bottom:10%;
 	margin-top:1%;
 	font-size: 30px;
+  border-radius: 10px;
 }
 
 .mainButton {
@@ -258,6 +290,7 @@ line-height: 90px;
 	height: 140px;
 	color: #ffffff;
 	font-size: 30px;
+  border-radius: 10px;
 }
 
 
@@ -271,7 +304,22 @@ line-height: 90px;
 	height: 140px;
 	color: #ffffff;
 	font-size: 30px;
+  border-radius: 10px;
 }
+
+.linkButton2 {
+  font: bold 30px Arial;
+  text-decoration: none;
+  background-color: #1144ee;
+  color: #ffffff;
+  padding: 52px 76px 52px 76px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+   border-radius: 10px;
+}
+
 
 .mainContainer {
 	padding-top: 5%;
@@ -288,6 +336,7 @@ line-height: 90px;
 	width: 90%;
 	height: 600px;
 	display: flex;
+	  border-radius: 25px;
     /*align-items: center;*/
     /*justify-content: center;*/
 	flex-direction: column;
@@ -304,6 +353,7 @@ line-height: 90px;
 
 .panelElement {
 	/*border: 2px solid #aaaaaa;*/
+	  border-radius: 25px;
 	width: 100%;
 	height: 100px;
 	display: flex;
@@ -354,6 +404,18 @@ line-height: 90px;
 
 .panelIconLabel {
 	color: #ffffff;
+	width: 30%;
+	font-size: 40px;
+	text-align: left;
+	margin-left: 2%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 0;
+}
+
+.panelIconLabel1 {
+	color: #ffffff;
+	width: 5%;
 	font-size: 40px;
 	text-align: left;
 	margin-left: 2%;
@@ -375,6 +437,13 @@ line-height: 90px;
 .slide {
 	padding-top: 30px;
 	margin-left: 520px;
+	height: 80px;
+	width: 110px;
+}
+
+.slide1 {
+	padding-top: 30px;
+	margin-left: 1%;
 	height: 80px;
 	width: 110px;
 }
@@ -446,4 +515,10 @@ input:checked + .slider:before {
   width: 70%;
   height: 60%;
   margin: 0 auto;
+}
+
+.select2 {
+  width: 40%;
+  height: 60%;
+  margin-top: 1%;
 }
