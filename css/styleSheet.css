@@ -86,7 +86,7 @@ line-height: 90px;
 	border-color: #ffffff;
 	width: 220px;
 	height: 140px;
-	margin-right: 20%;
+	margin-right: 10%;
 	color: #ffffff;
 	font-size: 30px;
 }
@@ -251,6 +251,19 @@ line-height: 90px;
 	  border-radius: 10px;
 }
 
+.firstButton1 {
+	background-color: #ffffff;
+	border-style: bold;
+	border-width: 2px;
+	border-color: #ffffff;
+	width: 220px;
+	height: 140px;
+	margin-right: 20%;
+	margin-top: 20%;
+	font-size: 30px;
+	  border-radius: 10px;
+}
+
 .linkButton1 {
   font: bold 30px Arial;
   text-decoration: none;
@@ -261,7 +274,7 @@ line-height: 90px;
   border-right: 1px solid #333333;
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;
-	margin-right: 20%;
+	margin-right: 10%;
 	border-radius: 10px;
 }
 
@@ -306,6 +319,21 @@ line-height: 90px;
 	font-size: 30px;
   border-radius: 10px;
 }
+
+.secondButton1 {
+	background-color: #1144ee;
+	border-style: bold;
+	border-width: 2px;
+	border-color: #ffffff;
+	width: 220px;
+	height: 140px;
+	color: #ffffff;
+	font-size: 30px;
+  border-radius: 10px;
+  margin-top: 20%;
+    margin-right: 3%;
+}
+
 
 .linkButton2 {
   font: bold 30px Arial;
@@ -385,7 +413,7 @@ line-height: 90px;
 	color: #ffffff;
 	font-size: 40px;
 	text-align: left;
-	width: 400px;
+	width: 50%;
 	padding-bottom: 10px;
 	padding-top: 30px;
 	padding-left: 20px
